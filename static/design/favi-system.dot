@@ -1,0 +1,29 @@
+digraph {
+    label = "\nFAVI\nSystem and modules";
+    node [shape = box;];
+    
+    user -> tabulaAetherea;
+    
+    subgraph cluster_0 {
+        label = "FAVI System";
+        color = black;
+        bgcolor = grey90;
+        penwidth = 2;
+        node [bgcolor = white;];
+        
+        tabulaAetherea -> editorisMelicorum [color = darkmagenta;];
+        tabulaAetherea -> editorisTabularum [color = darkmagenta;];
+        tabulaAetherea -> architectusCalculonis [color = darkmagenta;];
+        
+        editorisTabularum -> editorisMelicorum [color = orange;];
+        editorisTabularum -> architectusCalculonis [color = orange;];
+    }
+    
+    user [label = "User";];
+    
+    tabulaAetherea [label = "TABA\nTabula Aetherea";color = darkmagenta;];
+    architectusCalculonis [label = "ARCA\nArchitectus Calculonis";color = blue;];
+    
+    editorisTabularum [label = "ETAB\nEditoris Tabularum";color = orange;];
+    editorisMelicorum [label = "EMEL\nEditoris Melicorum";color = red;];
+}

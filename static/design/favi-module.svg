@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="139pt" height="266pt" viewBox="0.00 0.00 139 266.4">
+<g id="graph0" class="graph" transform="translate(33.46127453036624,234.53527244260763) scale(0.7722219149541374)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-262.4 135,-262.4 135,4 -4,4"/>
+<text text-anchor="middle" x="65.5" y="-25" font-family="Times,serif" font-size="14.00">FAVI module</text>
+<g id="clust1" class="cluster" data-name="cluster_0">
+
+<polygon fill="none" stroke="darkorchid" stroke-width="2" points="8,-65.6 8,-214.4 123,-214.4 123,-65.6 8,-65.6"/>
+<text text-anchor="middle" x="65.5" y="-197.8" font-family="Times,serif" font-size="14.00" fill="darkorchid">Docker Container</text>
+</g><text text-anchor="middle" x="65.5" y="-8.2" font-family="Times,serif" font-size="14.00">implementation</text>
+
+<!-- user --><g id="node1" class="node" pointer-events="visible" data-name="extModule" data-comment="user">
+
+<polygon fill="none" stroke="black" points="128.43,-258.4 1.57,-258.4 1.57,-222.4 128.43,-222.4 128.43,-258.4"/>
+<text text-anchor="middle" x="65" y="-236.2" font-family="Times,serif" font-size="14.00">other FAVI module</text>
+</g>
+
+<!-- tabulaAetherea --><!-- editorisTabularum -->
+<g id="edge1" class="edge" data-name="extModule-&gt;webServer" data-comment="editorisTabularum">
+
+<path fill="none" stroke="black" d="M65,-222.05C65,-213.46 65,-202.87 65,-193.12"/>
+<polygon fill="black" stroke="black" points="68.5,-193.37 65,-183.37 61.5,-193.37 68.5,-193.37"/>
+</g>
+<g id="node2" class="node" pointer-events="visible" data-name="webServer" data-comment="editorisTabularum">
+
+<polygon fill="none" stroke="blue" points="106.47,-181.6 23.53,-181.6 23.53,-145.6 106.47,-145.6 106.47,-181.6"/>
+<text text-anchor="middle" x="65" y="-159.4" font-family="Times,serif" font-size="14.00" fill="rgb(0, 0, 255)">Web Server</text>
+</g><!-- coreModule -->
+<g id="node3" class="node" pointer-events="visible" data-name="coreModule">
+
+<polygon fill="none" stroke="orange" points="110.27,-109.6 19.73,-109.6 19.73,-73.6 110.27,-73.6 110.27,-109.6"/>
+<text text-anchor="middle" x="65" y="-87.4" font-family="Times,serif" font-size="14.00" fill="rgb(255, 165, 0)">Core Module</text>
+</g>
+
+<!-- webServer&#45;&gt;coreModule -->
+<g id="edge2" class="edge" data-name="webServer-&gt;coreModule">
+
+<path fill="none" stroke="rgb(0, 0, 255)" d="M65,-145.3C65,-138.01 65,-129.33 65,-121.14"/>
+<polygon fill="blue" stroke="blue" points="68.5,-121.22 65,-111.22 61.5,-121.22 68.5,-121.22"/>
+</g>
+
+</g>
+</svg>
