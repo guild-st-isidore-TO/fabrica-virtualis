@@ -38,7 +38,7 @@ The Editoris Tabularum is a digital typesetting toolkit for creating documents l
 
 #### ARCA
 
-The Architectus Calculonis is a parametric 3D modelling toolkit that creates 3D models through Python scripts.
+The Architectus Calculonis is a parametric 2D/3D modelling toolkit that creates 2D designs and 3D models through Python scripts.
 
 ## MODULE STRUCTURE
 
