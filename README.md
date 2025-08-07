@@ -26,7 +26,7 @@ Planning stage
 
 #### TABA
 
-Tabula Aetherea is GSI's System UI, the main interface for the apps we've created. When users access the TABA front-end the TABA server will use the appropriate FAVI module to complete tasks.
+Tabula Aetherea is GSI's System UI, the main interface for the apps we've created. When users access the TABA front-end, the TABA server will use the appropriate FAVI module to complete tasks.
 
 #### EMEL
 
@@ -34,11 +34,11 @@ Editoris Melicorum is a digital music typesetting toolkit for music ministries i
 
 #### ETAB
 
-Editoris Tabularum is GSI's upcoming document typesetting toolkit, which will build document layouts from diverse sources and file types.
+The Editoris Tabularum is a digital typesetting toolkit for creating documents like prayer booklets, mass and liturgical programs, parish announcements, etc.
 
 #### ARCA
 
-Architectus Calculonis is GSI's upcoming 2D/3D modelling toolkit, a parametric design tool for creating 2D designs and 3D models.
+The Architectus Calculonis is a parametric 3D modelling toolkit that creates 3D models through Python scripts.
 
 ## MODULE STRUCTURE
 
