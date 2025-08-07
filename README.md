@@ -22,6 +22,22 @@ Planning stage
 
 ![FAVI system](./static/design/favi-system.svg "FAVI system")
 
+### TABA
+
+Tabula Aetherea is GSI's System UI, the main interface for the apps we've created. When users access the TABA front-end the TABA server will use the appropriate FAVI module to complete tasks.
+
+### EMEL
+
+This project aims to create a digital music typesetting toolkit for use by music ministries in Catholic parishes. The toolkit helps with building musical arrangements around traditional hymns in Gregorian notation. As well as laying them out into documents, both for the congregation and the choir/musicians.
+
+### ETAB
+
+Editoris Tabularum is GSI's upcoming document typesetting toolkit, which will build document layouts from diverse sources and file types.
+
+### ARCA
+
+Architectus Calculonis is GSI's upcoming 2D/3D modelling toolkit, a parametric design tool for creating 2D designs and 3D models.
+
 ### MODULES
 
 **FAVI** modules are packaged like so:
