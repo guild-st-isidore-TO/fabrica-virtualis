@@ -1,8 +1,10 @@
 # FAVI Data Models
 
-Common data formats understood by FAVI modules
-
 Back to [main README](../../README.md)
+
+---
+
+Common data formats understood by FAVI modules
 
 ## ENTITY MODELS
 

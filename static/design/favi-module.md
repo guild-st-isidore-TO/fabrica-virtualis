@@ -2,13 +2,13 @@
 
 Back to [main README](../../README.md)
 
-## STRUCTURE
+---
 
 **FAVI** modules are packaged like so:
 
-1. Modules use a **Docker container** which hosts a:
-1. **Web server** that exposes functionality from:
-1. the **Core module**
+1. Modules use a **Docker container** which hosts the
+1. **Module Web Server** that exposes functionality from
+1. the **Module Core**
 
 ![FAVI module](./favi-module.svg "FAVI module")
 
