@@ -48,30 +48,37 @@ User interactions are expected to have this data flow:
 
 #### TABA
 
-https://github.com/guild-st-isidore-TO/tabula-aetherea
+https://github.com/guild-st-isidore-TO/tabula-aetherea  
+Core techs: JavaScript, Node, React, [Refine](https://refine.dev/)
 
 Tabula Aetherea is GSI's System UI, the main interface for the apps we've created. When users access the TABA front-end, the TABA server will use the appropriate FAVI module to complete tasks.
 
 #### EMEL
 
-https://github.com/guild-st-isidore-TO/editorismelicorum
+https://github.com/guild-st-isidore-TO/editorismelicorum  
+Core techs: Python, LilyPond, gabctk
 
 Editoris Melicorum is a digital music typesetting toolkit for music ministries in Catholic parishes. The toolkit helps build musical arrangements around traditional hymns in Gregorian notation. As well as laying them out into documents, both for the congregation and the choir/musicians.
 
-#### CALI
-
-https://github.com/guild-st-isidore-TO/calendarium-interretialum
-
-Calendarium Interretialum is a digital liturgical calendar.
-
 #### ETAB
 
-https://github.com/guild-st-isidore-TO/editoristabularum
+https://github.com/guild-st-isidore-TO/editoristabularum  
+Core techs: Python, Pandoc, LaTEX
 
 The Editoris Tabularum is a digital typesetting toolkit for creating documents like prayer booklets, mass and liturgical programs, parish announcements, etc.
 
 #### ARCA
 
-https://github.com/guild-st-isidore-TO/architectuscalculonis
+https://github.com/guild-st-isidore-TO/architectuscalculonis  
+Core techs: Python, FreeCAD
 
 The Architectus Calculonis is a parametric 2D/3D modelling toolkit that creates 2D designs and 3D models through Python scripts.
+
+### Upcoming Modules
+
+#### CALI
+
+https://github.com/guild-st-isidore-TO/calendarium-interretialum  
+Core techs: ????
+
+Calendarium Interretialum is a digital liturgical calendar.
