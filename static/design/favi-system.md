@@ -12,6 +12,11 @@ Back to [main README](../../README.md)
 | [EMEL](https://github.com/guild-st-isidore-TO/editorismelicorum) | Editoris Melicorum | Editors of Melodies | Music typesetting tools | 
 | [ETAB](https://github.com/guild-st-isidore-TO/editoristabularum) | Editoris Tabularum | Editors of Documents | Document publishing tools | 
 | [ARCA](https://github.com/guild-st-isidore-TO/architectuscalculonis) | Architectus Calculonis | Computerized Architect | 2D design / 3D modelling tools |
+
+Modules planned for development:
+
+| Module | Full name | Transl. name | Role |
+| --- | --- | --- | --- |
 | [CALI](https://github.com/guild-st-isidore-TO/calendarium-interretialum) | Calendarium Interretialum | Calendar of the Internet | Digital liturgical calendar |
 | ???? | ???? | ???? | Image Processing Tools |
 | ???? | ???? | ???? | Guitar Diagram Lib / Tools |

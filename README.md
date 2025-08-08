@@ -7,7 +7,7 @@ Virtual Workspace for GSI
 **FAVI** is the GSI's Virtual Workspace, where users can access the modules that we've created. Under the hood, this is where modules are integrated together into a complete functioning system.
 
 > STATUS (VIII Augustii MMXXV)  
-Planning stage
+Work in Progress -- Bootstrapping projects by reusing old code, getting containers running and ready for integration
 
 ## DESIGN DOCUMENTS
 
@@ -25,6 +25,11 @@ Planning stage
 | [EMEL](https://github.com/guild-st-isidore-TO/editorismelicorum) | Editoris Melicorum | Editors of Melodies | Music typesetting tools | 
 | [ETAB](https://github.com/guild-st-isidore-TO/editoristabularum) | Editoris Tabularum | Editors of Documents | Document publishing tools | 
 | [ARCA](https://github.com/guild-st-isidore-TO/architectuscalculonis) | Architectus Calculonis | Computerized Architect | 2D design / 3D modelling tools |
+
+Modules planned for development:
+
+| Planned module | Full name | Transl. name | Role |
+| --- | --- | --- | --- |
 | [CALI](https://github.com/guild-st-isidore-TO/calendarium-interretialum) | Calendarium Interretialum | Calendar of the Internet | Digital liturgical calendar |
 | ???? | ???? | ???? | Image Processing Tools |
 | ???? | ???? | ???? | Guitar Diagram Lib / Tools |
