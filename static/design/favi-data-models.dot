@@ -1,0 +1,27 @@
+digraph {
+    label = "\nFAVI\ndata models\nv0.1";
+    node [shape = box;];
+    
+    genericFile -> textFile [dir = both; arrowhead = none; arrowtail = onormal;];
+    
+    textFile -> markdownFile [dir = both; arrowhead = none; arrowtail = onormal;];
+    textFile -> gabcFile [dir = both; arrowhead = none; arrowtail = onormal;];
+    textFile -> lilypondFile [dir = both; arrowhead = none; arrowtail = onormal;];
+
+    genericFile -> imageFile [dir = both; arrowhead = none; arrowtail = onormal;];
+    genericFile -> documentFile [dir = both; arrowhead = none; arrowtail = onormal;];
+    
+    genericFile [label = "genericFile";color = orange;fontcolor = orange;];
+    
+    textFile [label = "textFile";color = blue;fontcolor = blue;];
+    
+    markdownFile [label = "markdownFile";color = darkblue;fontcolor = darkblue;];
+    
+    gabcFile [label = "gabcFile";color = darkblue;fontcolor = darkblue;];
+    
+    lilypondFile [label = "lilypondFile";color = darkblue;fontcolor = darkblue;];
+    
+    imageFile [label = "imageFile";color = darkgoldenrod;fontcolor = darkgoldenrod;];
+    
+    documentFile [label = "documentFile";color = darkgoldenrod;fontcolor = darkgoldenrod;];
+}

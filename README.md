@@ -9,6 +9,12 @@ Virtual Workspace for GSI
 > STATUS (VII Augustii MMXXV)  
 Planning stage
 
+## DESIGN DOCUMENTS
+
+- [FAVI System](static/design/favi-system.md)
+- [FAVI Modules](static/design/favi-module.md)
+- [FAVI Data Models](static/design/favi-data-models.md)
+
 ## ARCHITECTURE
 
 **FAVI** will be composed of:
@@ -70,3 +76,7 @@ The base Docker image and web server platform should match the core module's tec
 | EMEL | Python, LilyPond | ... |
 | ETAB | Python, Pandoc | ... |
 | ARCA | Python, FreeCAD | ... |
+
+## DATA MODEL
+
+![FAVI data models](./static/design/favi-data-models.svg "FAVI data models")

@@ -1,0 +1,87 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="385pt" height="262pt" viewBox="0.00 0.00 385.32 262.40">
+<g id="graph0" class="graph" transform="translate(4,258.3999938964844) scale(1)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-258.4 381.32,-258.4 381.32,4 -4,4" style=""/>
+<text text-anchor="middle" x="188.66" y="-41.8" font-family="Times,serif" font-size="14.00" style="">FAVI</text>
+<text text-anchor="middle" x="188.66" y="-25" font-family="Times,serif" font-size="14.00" style="">data models</text>
+<text text-anchor="middle" x="188.66" y="-8.2" font-family="Times,serif" font-size="14.00" style="">v0.1</text>
+<!-- genericFile -->
+<g id="node1" class="node" pointer-events="visible" data-name="genericFile">
+
+<polygon fill="none" stroke="orange" points="270.3,-254.4 191.35,-254.4 191.35,-218.4 270.3,-218.4 270.3,-254.4" style=""/>
+<text text-anchor="middle" x="230.83" y="-232.2" font-family="Times,serif" font-size="14.00" fill="orange" style="">genericFile</text>
+</g>
+<!-- textFile -->
+<g id="node2" class="node" pointer-events="visible" data-name="textFile">
+
+<polygon fill="none" stroke="blue" points="177.1,-182.4 118.55,-182.4 118.55,-146.4 177.1,-146.4 177.1,-182.4" style=""/>
+<text text-anchor="middle" x="147.83" y="-160.2" font-family="Times,serif" font-size="14.00" fill="blue" style="">textFile</text>
+</g>
+<!-- genericFile&#45;&gt;textFile -->
+<g id="edge1" class="edge" data-name="genericFile-&gt;textFile">
+
+<path fill="none" stroke="black" d="M201.82,-210.93C190.8,-201.64 178.48,-191.25 168.4,-182.75" style=""/>
+<polygon fill="none" stroke="black" points="199.25,-213.35 209.15,-217.12 203.77,-208 199.25,-213.35" style=""/>
+</g>
+<!-- imageFile -->
+<g id="node6" class="node" pointer-events="visible" data-name="imageFile">
+
+<polygon fill="none" stroke="darkgoldenrod" points="266.81,-182.4 194.84,-182.4 194.84,-146.4 266.81,-146.4 266.81,-182.4" style=""/>
+<text text-anchor="middle" x="230.83" y="-160.2" font-family="Times,serif" font-size="14.00" fill="darkgoldenrod" style="">imageFile</text>
+</g>
+<!-- genericFile&#45;&gt;imageFile -->
+<g id="edge5" class="edge" data-name="genericFile-&gt;imageFile">
+
+<path fill="none" stroke="black" d="M230.83,-206.64C230.83,-198.44 230.83,-189.77 230.83,-182.5" style=""/>
+<polygon fill="none" stroke="black" points="227.33,-206.58 230.83,-216.58 234.33,-206.58 227.33,-206.58" style=""/>
+</g>
+<!-- documentFile -->
+<g id="node7" class="node" pointer-events="visible" data-name="documentFile">
+
+<polygon fill="none" stroke="darkgoldenrod" points="377.31,-182.4 284.34,-182.4 284.34,-146.4 377.31,-146.4 377.31,-182.4" style=""/>
+<text text-anchor="middle" x="330.83" y="-160.2" font-family="Times,serif" font-size="14.00" fill="darkgoldenrod" style="">documentFile</text>
+</g>
+<!-- genericFile&#45;&gt;documentFile -->
+<g id="edge6" class="edge" data-name="genericFile-&gt;documentFile">
+
+<path fill="none" stroke="black" d="M264.85,-211.58C278.41,-202.09 293.71,-191.38 306.17,-182.66" style=""/>
+<polygon fill="none" stroke="black" points="263.23,-208.45 257.04,-217.05 267.24,-214.18 263.23,-208.45" style=""/>
+</g>
+<!-- markdownFile -->
+<g id="node3" class="node" pointer-events="visible" data-name="markdownFile">
+
+<polygon fill="none" stroke="darkblue" points="97.48,-110.4 0.17,-110.4 0.17,-74.4 97.48,-74.4 97.48,-110.4" style=""/>
+<text text-anchor="middle" x="48.83" y="-88.2" font-family="Times,serif" font-size="14.00" fill="darkblue" style="">markdownFile</text>
+</g>
+<!-- textFile&#45;&gt;markdownFile -->
+<g id="edge2" class="edge" data-name="textFile-&gt;markdownFile">
+
+<path fill="none" stroke="black" d="M113.76,-139.31C100.43,-129.89 85.45,-119.3 73.24,-110.66" style=""/>
+<polygon fill="none" stroke="black" points="111.68,-142.13 121.87,-145.04 115.72,-136.41 111.68,-142.13" style=""/>
+</g>
+<!-- gabcFile -->
+<g id="node4" class="node" pointer-events="visible" data-name="gabcFile">
+
+<polygon fill="none" stroke="darkblue" points="180.04,-110.4 115.62,-110.4 115.62,-74.4 180.04,-74.4 180.04,-110.4" style=""/>
+<text text-anchor="middle" x="147.83" y="-88.2" font-family="Times,serif" font-size="14.00" fill="darkblue" style="">gabcFile</text>
+</g>
+<!-- textFile&#45;&gt;gabcFile -->
+<g id="edge3" class="edge" data-name="textFile-&gt;gabcFile">
+
+<path fill="none" stroke="black" d="M147.83,-134.64C147.83,-126.44 147.83,-117.77 147.83,-110.5" style=""/>
+<polygon fill="none" stroke="black" points="144.33,-134.58 147.83,-144.58 151.33,-134.58 144.33,-134.58" style=""/>
+</g>
+<!-- lilypondFile -->
+<g id="node5" class="node" pointer-events="visible" data-name="lilypondFile">
+
+<polygon fill="none" stroke="darkblue" points="282.28,-110.4 197.38,-110.4 197.38,-74.4 282.28,-74.4 282.28,-110.4" style=""/>
+<text text-anchor="middle" x="239.83" y="-88.2" font-family="Times,serif" font-size="14.00" fill="darkblue" style="">lilypondFile</text>
+</g>
+<!-- textFile&#45;&gt;lilypondFile -->
+<g id="edge4" class="edge" data-name="textFile-&gt;lilypondFile">
+
+<path fill="none" stroke="black" d="M179.62,-139.21C191.93,-129.84 205.74,-119.34 217.03,-110.75" style=""/>
+<polygon fill="none" stroke="black" points="177.61,-136.34 171.77,-145.18 181.85,-141.91 177.61,-136.34" style=""/>
+</g>
+</g>
+</svg>

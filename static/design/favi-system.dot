@@ -1,5 +1,5 @@
 digraph {
-    label = "\nFAVI\nSystem and modules";
+    label = "\nFAVI\nSystem and modules\nv0.1";
     node [shape = box;];
     
     user -> tabulaAetherea;
