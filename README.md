@@ -42,6 +42,8 @@ Modules planned for development:
 1. User directs their browser to the TABA web page.
 1. As the user interacts with the TABA UI, the TABA server interacts with the other FAVI modules via REST API.
 
+For more information, please see [FAVI System](static/design/favi-system.md)
+
 ## MODULES
 
 **FAVI** modules are packaged like so:
@@ -54,8 +56,12 @@ Modules planned for development:
 
 This implementation allows users to tweak configurations as necessary. For customizing how these modules fit together, adding their own to the cluster, etc.
 
+For more information, please see [FAVI Modules](static/design/favi-module.md)
+
 ## DATA MODELS
 
 **FAVI** is designed to handle the following file types:
 
 ![FAVI data models](./static/design/favi-data-models.svg "FAVI data models")
+
+For more information, please see [FAVI Data Models](static/design/favi-data-models.md)
