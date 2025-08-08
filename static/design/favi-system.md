@@ -8,10 +8,10 @@ Back to [main README](../../README.md)
 
 | Module | Full name | Transl. name | Role |
 | --- | --- | --- | --- |
-| TABA | Tabula Aetherea | Ethereal Tablet | System UI for the GSI Workspace | 
-| EMEL | Editoris Melicorum | Editors of Melodies | GSI's music typesetting toolkit | 
-| ETAB | Editoris Tabularum | Editors of Documents | GSI's document typesetting toolkit | 
-| ARCA | Architectus Calculonis | Computerized Architect | GSI's 2D/3D modelling toolkit |
+| [TABA](https://github.com/guild-st-isidore-TO/tabula-aetherea) | Tabula Aetherea | Ethereal Tablet | System UI for the GSI Workspace | 
+| [EMEL](https://github.com/guild-st-isidore-TO/editorismelicorum) | Editoris Melicorum | Editors of Melodies | GSI's music typesetting toolkit | 
+| [ETAB](https://github.com/guild-st-isidore-TO/editoristabularum) | Editoris Tabularum | Editors of Documents | GSI's document typesetting toolkit | 
+| [ARCA](https://github.com/guild-st-isidore-TO/architectuscalculonis) | Architectus Calculonis | Computerized Architect | GSI's 2D/3D modelling toolkit |
 
 ![FAVI system](./favi-system.svg "FAVI system")
 
