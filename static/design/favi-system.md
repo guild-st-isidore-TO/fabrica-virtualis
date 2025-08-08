@@ -38,8 +38,10 @@ User interactions are expected to have this data flow:
 1. On the same page, user selects the relevant files and data (inputs)
 1. On the same page, user triggers FAVI function
 1. TABA back-end sends user's configs and input data to FAVI module's web server
+    - config/inputs to be sent as JSON in HTTP request
 1. FAVI module server runs module's core function using the user's configs and inputs
 1. FAVI module core returns valid data, or throws an exception
+    - valid data (e.g. output images and PDFs) to be returned in HTTP response
 1. FAVI module server returns valid data or exception data
 1. TABA back-end parses data from FAVI module
 1. TABA front-end shows valid result, or error message
