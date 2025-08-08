@@ -53,6 +53,12 @@ https://github.com/guild-st-isidore-TO/editorismelicorum
 
 Editoris Melicorum is a digital music typesetting toolkit for music ministries in Catholic parishes. The toolkit helps build musical arrangements around traditional hymns in Gregorian notation. As well as laying them out into documents, both for the congregation and the choir/musicians.
 
+#### CALI
+
+https://github.com/guild-st-isidore-TO/calendarium-interretialum
+
+Calendarium Interretialum is a digital liturgical calendar.
+
 #### ETAB
 
 https://github.com/guild-st-isidore-TO/editoristabularum

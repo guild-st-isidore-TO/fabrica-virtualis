@@ -1,5 +1,5 @@
 digraph {
-    label = "\nFAVI\nSystem and modules\nv0.1";
+    label = "\nFAVI\nSystem and modules\nv0.2";
     node [shape = box;];
     
     user -> tabulaAetherea;
@@ -14,15 +14,18 @@ digraph {
         tabulaAetherea -> editorisMelicorum [color = darkmagenta;];
         tabulaAetherea -> editorisTabularum [color = darkmagenta;];
         tabulaAetherea -> architectusCalculonis [color = darkmagenta;];
+        tabulaAetherea -> calendariumIhterretialum [color = darkmagenta;];
         
         editorisTabularum -> editorisMelicorum [color = orange;];
         editorisTabularum -> architectusCalculonis [color = orange;];
+        editorisTabularum -> calendariumIhterretialum [color = orange;];
     }
     
     user [label = "User";];
     
     tabulaAetherea [label = "TABA\nTabula Aetherea";color = darkmagenta;];
     architectusCalculonis [label = "ARCA\nArchitectus Calculonis";color = blue;];
+    calendariumIhterretialum [label = "CALI\nCalendarium Interretialum";color = green;];
     
     editorisTabularum [label = "ETAB\nEditoris Tabularum";color = orange;];
     editorisMelicorum [label = "EMEL\nEditoris Melicorum";color = red;];
