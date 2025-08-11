@@ -26,6 +26,8 @@ Modules planned for development:
 
 ![FAVI system](./favi-system.svg "FAVI system")
 
+## USE CASE, DATA FLOW
+
 ### Typical Use Case
 
 1. User accesses the system through their web browser.
@@ -42,14 +44,14 @@ User interactions are expected to have this data flow:
 1. On the same page, user triggers FAVI function
 1. TABA back-end sends user's configs and input data to FAVI module's web server
     - config/inputs to be sent as JSON in HTTP request
-1. FAVI module server runs module's core function using the user's configs and inputs
+1. FAVI module serveruns module's core function using user's configs and inputs
 1. FAVI module core returns valid data, or throws an exception
-    - valid data (e.g. output images and PDFs) to be returned in HTTP response
+    - valid data (e.g.utput images and PDFs) to be returnedHTTP response
 1. FAVI module server returns valid data or exception data
 1. TABA back-end parses data from FAVI module
 1. TABA front-end shows valid result, or error message
 
-### Main Modules
+## MAIN MODULES
 
 Detailed descriptions, rough API designs. See [FAVI Data Models](./favi-data-models.md) for details on input data formats.
 
@@ -61,70 +63,70 @@ Detailed descriptions, rough API designs. See [FAVI Data Models](./favi-data-mod
 | [ARCA](https://github.com/guild-st-isidore-TO/architectuscalculonis) | 2D design / 3D modelling tools | Creates 2D designs (SVG) for documents and 3D models (STL, 3MF) for useful things in parish activities. |
 | [CALI](https://github.com/guild-st-isidore-TO/calendarium-interretialum) | Digital liturgical calendars | Creates customizable calendars with varying degrees of detail. |
 
-#### COMMON
+### COMMON
 
 Functions common to all FAVI modules
 
-**API Endpoints**
+#### API Endpoints
 
 | Function | API Endpoint | Notes |
 | --- | --- | --- |
-| Heartbeat/Handshake | `ping` | Sends `"Dominus vobiscum"`, expects `"Et cum spiritu tuo"` |
+| Heartbeat/Handshake | `ping` | ... |
 | Info Report | `info` | ... |
 | Status Report | `status` | ... |
 
-#### TABA
+### TABA
 
 https://github.com/guild-st-isidore-TO/tabula-aetherea  
 Core techs: JavaScript, Node, React, [Refine](https://refine.dev/)
 
 Tabula Aetherea is GSI's System UI, the main webpage and user interface for the apps we've created. Accessible through a web browser, and allows data entry and file uploading into the system. As users access the TABA front-end, the TABA server will use the appropriate FAVI module to complete tasks.
 
-#### EMEL
+### EMEL
 
 https://github.com/guild-st-isidore-TO/editorismelicorum  
 Core techs: Python, LilyPond, gabctk
 
 Editoris Melicorum is a digital music typesetting toolkit for music ministries in Catholic parishes. The toolkit helps build musical arrangements around traditional hymns in Gregorian notation. As well as laying them out into documents, both for the congregation and the choir/musicians.
 
-**API Endpoints**
+#### API Endpoints
 
 | Function | API Endpoint | Notes |
 | --- | --- | --- |
 | Arrangement sheets | `arr_sheets` | ... |
 | Performance sheets | `perf_sheets` | ... |
 
-**API Inputs**
+#### arr_sheets
 
-`arr_sheets`  
 returns **PDF documents**
 
 | Input property name | Data type | Notes |
 | --- | --- | --- |
-| document | DocumentFile | ... |
-| source_gabc_files | GabcFile[] | ... |
-| source_ly_files | LilyPondFile[] | ... |
-| config | object | Configurations and settings |
+| `document` | DocumentFile | ... |
+| `source_gabc_files` | GabcFile[] | ... |
+| `source_ly_files` | LilyPondFile[] | ... |
+| `config` | object | Configurations and settings |
 
-`perf_sheets`  
+#### perf_sheets
+
 returns **PDF documents**
 
 | Input property name | Data type | Notes |
 | --- | --- | --- |
-| document | DocumentFile | ... |
-| source_gabc_files | GabcFile[] | ... |
-| source_ly_files | LilyPondFile[] | ... |
-| input_ly_files | LilyPondFile[] | ... |
-| config | object | Configurations and settings |
+| `document` | DocumentFile | ... |
+| `source_gabc_files` | GabcFile[] | ... |
+| `source_ly_files` | LilyPondFile[] | ... |
+| `input_ly_files` | LilyPondFile[] | ... |
+| `config` | object | Configurations and settings |
 
-#### ETAB
+### ETAB
 
 https://github.com/guild-st-isidore-TO/editoristabularum  
 Core techs: Python, Pandoc, LaTEX
 
 The Editoris Tabularum is a digital typesetting toolkit for creating (low-key) multimedia and multilingual documents like prayer booklets, mass and liturgical programs, parish announcements, etc. Think of something that can create liturgy programs combining text (in English/Latin/French), images (covers, ornaments), and music scores (hymns, chants).
 
-**API Endpoints**
+#### API Endpoints
 
 | Function | API Endpoint | Notes |
 | --- | --- | --- |
@@ -132,48 +134,48 @@ The Editoris Tabularum is a digital typesetting toolkit for creating (low-key) m
 | Program | `program` | Multilingual mass / liturgical programs. |
 | Hymnal | `hymnal` | Multilingual hymnals and chanted liturgies |
 
-**API Inputs**
+#### quote
 
-`quote`  
 returns **PDF document**
 
 | Input property name | Data type | Notes |
 | --- | --- | --- |
-| document | DocumentFile | ... |
-| config | object | Configurations and settings |
+| `document` | DocumentFile | ... |
+| `config` | object | Configurations and settings |
 
-`program`  
+#### program
+
 returns **PDF document**
 
 | Input property name | Data type | Notes |
 | --- | --- | --- |
-| document | DocumentFile | ... |
-| config | object | Configurations and settings |
+| `document` | DocumentFile | ... |
+| `config` | object | Configurations and settings |
 
-`hymnal`  
+#### hymnal
+
 returns **PDF document**
 
 | Input property name | Data type | Notes |
 | --- | --- | --- |
-| document | DocumentFile | ... |
-| config | object | Configurations and settings |
+| `document` | DocumentFile | ... |
+| `config` | object | Configurations and settings |
 
-#### ARCA
+### ARCA
 
 https://github.com/guild-st-isidore-TO/architectuscalculonis  
 Core techs: Python, FreeCAD
 
 The Architectus Calculonis is a parametric 2D/3D modelling toolkit that creates 2D designs (SVG) for documents and 3D models (STL, 3MF) for useful things in parish activities
 
-**API Endpoints**
+#### API Endpoints
 
 | Function | API Endpoint | Notes |
 | --- | --- | --- |
 | 2D Frame | `frame_2d` | Creates an SVG frame with the given size and parameters |
 
-**API Inputs**
+#### frame_2d
 
-`frame_2d`  
 returns **SVG image**
 
 | Input property name | Data type | Notes |
@@ -186,9 +188,9 @@ returns **SVG image**
 | `int_corner_style` | string | ... |
 | `config` | object | Configurations and settings |
 
-### Upcoming Modules
+## UPCOMING MODULES
 
-#### CALI
+### CALI
 
 https://github.com/guild-st-isidore-TO/calendarium-interretialum  
 Core techs: ????
