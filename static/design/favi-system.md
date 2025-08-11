@@ -48,12 +48,20 @@ User interactions are expected to have this data flow:
 
 ### Main Modules
 
+| Module | Role | Main Function |
+| --- | --- | --- |
+| [TABA](https://github.com/guild-st-isidore-TO/tabula-aetherea) | System UI for the GSI Workspace | Main webpage and UI for FAVI. Accessible through a web browser, and allows data entry and file uploading into the system when using our tools. |
+| [EMEL](https://github.com/guild-st-isidore-TO/editorismelicorum) | Music typesetting tools | Translating music written in Gregorian Chant notation into Standard notation. And then using that info to create partial scores for writing accompaniments, or complete scores. |
+| [ETAB](https://github.com/guild-st-isidore-TO/editoristabularum) | Document publishing tools | Creates (low-key) multimedia and multilingual documents. Like liturgy programs combining text (in English/Latin/French), images (covers, ornaments), and music scores (hymns, chants). |
+| [ARCA](https://github.com/guild-st-isidore-TO/architectuscalculonis) | 2D design / 3D modelling tools | Creates 2D designs (SVG) for documents and 3D models (STL, 3MF) for useful things in parish activities. |
+| [CALI](https://github.com/guild-st-isidore-TO/calendarium-interretialum) | Digital liturgical calendars | Creates customizable calendars with varying degrees of detail. |
+
 #### TABA
 
 https://github.com/guild-st-isidore-TO/tabula-aetherea  
 Core techs: JavaScript, Node, React, [Refine](https://refine.dev/)
 
-Tabula Aetherea is GSI's System UI, the main interface for the apps we've created. When users access the TABA front-end, the TABA server will use the appropriate FAVI module to complete tasks.
+Tabula Aetherea is GSI's System UI, the main webpage and user interface for the apps we've created. Accessible through a web browser, and allows data entry and file uploading into the system. As users access the TABA front-end, the TABA server will use the appropriate FAVI module to complete tasks.
 
 #### EMEL
 
@@ -67,14 +75,15 @@ Editoris Melicorum is a digital music typesetting toolkit for music ministries i
 https://github.com/guild-st-isidore-TO/editoristabularum  
 Core techs: Python, Pandoc, LaTEX
 
-The Editoris Tabularum is a digital typesetting toolkit for creating documents like prayer booklets, mass and liturgical programs, parish announcements, etc.
+The Editoris Tabularum is a digital typesetting toolkit for creating (low-key) multimedia and multilingual documents like prayer booklets, mass and liturgical programs, parish announcements, etc. Think of something that can create liturgy programs combining text (in English/Latin/French), images (covers, ornaments), and music scores (hymns, chants).
+
 
 #### ARCA
 
 https://github.com/guild-st-isidore-TO/architectuscalculonis  
 Core techs: Python, FreeCAD
 
-The Architectus Calculonis is a parametric 2D/3D modelling toolkit that creates 2D designs and 3D models through Python scripts.
+The Architectus Calculonis is a parametric 2D/3D modelling toolkit that creates 2D designs (SVG) for documents and 3D models (STL, 3MF) for useful things in parish activities
 
 ### Upcoming Modules
 
@@ -83,4 +92,4 @@ The Architectus Calculonis is a parametric 2D/3D modelling toolkit that creates 
 https://github.com/guild-st-isidore-TO/calendarium-interretialum  
 Core techs: ????
 
-Calendarium Interretialum is a digital liturgical calendar.
+Calendarium Interretialum creates customizable liturgical calendars with varying degrees of detail
