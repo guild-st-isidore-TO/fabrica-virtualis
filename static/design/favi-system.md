@@ -61,6 +61,18 @@ Detailed descriptions, rough API designs. See [FAVI Data Models](./favi-data-mod
 | [ARCA](https://github.com/guild-st-isidore-TO/architectuscalculonis) | 2D design / 3D modelling tools | Creates 2D designs (SVG) for documents and 3D models (STL, 3MF) for useful things in parish activities. |
 | [CALI](https://github.com/guild-st-isidore-TO/calendarium-interretialum) | Digital liturgical calendars | Creates customizable calendars with varying degrees of detail. |
 
+#### COMMON
+
+Functions common to all FAVI modules
+
+**API Endpoints**
+
+| Function | API Endpoint | Notes |
+| --- | --- | --- |
+| Heartbeat/Handshake | `ping` | Sends `"Dominus vobiscum"`, expects `"Et cum spiritu tuo"` |
+| Info Report | `info` | ... |
+| Status Report | `status` | ... |
+
 #### TABA
 
 https://github.com/guild-st-isidore-TO/tabula-aetherea  
