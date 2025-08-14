@@ -31,8 +31,8 @@ Modules planned for development:
 | Planned module | Full name | Transl. name | Role |
 | --- | --- | --- | --- |
 | [CALI](https://github.com/guild-st-isidore-TO/calendarium-interretialum) | Calendarium Interretialum | Calendar of the Internet | Digital liturgical calendar |
-| ???? | ???? | ???? | Image Processing Tools |
-| ???? | ???? | ???? | Guitar Diagram Lib / Tools |
+| FERA | Ferrarius Picturae | Blacksmith of Pictures | Image Processing Tools |
+| DHAC | Descriptionis Harmoniarum Citharae | Diagrams of Guitar Harmonies | Guitar Diagram Lib / Tools |
 
 ![FAVI system](./static/design/favi-system.svg "FAVI system")
 
@@ -44,7 +44,6 @@ Modules planned for development:
 | [EMEL](https://github.com/guild-st-isidore-TO/editorismelicorum) | Music typesetting tools | Translating music written in Gregorian Chant notation into Standard notation. And then using that info to create partial scores for writing accompaniments, or complete scores. |
 | [ETAB](https://github.com/guild-st-isidore-TO/editoristabularum) | Document publishing tools | Creates (low-key) multimedia and multilingual documents. Like liturgy programs combining text (in English/Latin/French), images (covers, ornaments), and music scores (hymns, chants). |
 | [ARCA](https://github.com/guild-st-isidore-TO/architectuscalculonis) | 2D design / 3D modelling tools | Creates 2D designs (SVG) for documents and 3D models (STL, 3MF) for useful things in parish activities. |
-| [CALI](https://github.com/guild-st-isidore-TO/calendarium-interretialum) | Digital liturgical calendars | Creates customizable calendars with varying degrees of detail. |
 
 ### Typical Use Case
 
