@@ -9,20 +9,14 @@ Work in Progress -- Designing API endpoints, inputs, etc
 
 **FAVI** will be a Docker cluster composed of the following main modules:
 
-| Module | Full name | Transl. name | Role |
+| Module | Module Slug | Full name | Role |
 | --- | --- | --- | --- |
-| [TABA](https://github.com/guild-st-isidore-TO/tabula-aetherea) | Tabula Aetherea | Ethereal Tablet | System UI for the GSI Workspace | 
-| [EMEL](https://github.com/guild-st-isidore-TO/editorismelicorum) | Editoris Melicorum | Editors of Melodies | Music typesetting tools | 
-| [ETAB](https://github.com/guild-st-isidore-TO/editoristabularum) | Editoris Tabularum | Editors of Documents | Document publishing tools | 
-| [ARCA](https://github.com/guild-st-isidore-TO/architectuscalculonis) | Architectus Calculonis | Computerized Architect | 2D design / 3D modelling tools |
-
-Modules planned for development:
-
-| Module | Full name | Transl. name | Role |
-| --- | --- | --- | --- |
-| [CALI](https://github.com/guild-st-isidore-TO/calendarium-interretialum) | Calendarium Interretialum | Calendar of the Internet | Digital liturgical calendar |
-| FERA | Ferrarius Picturae | Blacksmith of Pictures | Image Processing Tools |
-| DHAC | Descriptionis Harmoniarum Citharae | Diagrams of Guitar Harmonies | Guitar Diagram Lib / Tools |
+| **TabAeth** | `tabaeth` | Tabula Aetherea / Ethereal Tablet | System UI for the GSI Workspace | 
+| **EdiMeli** | `edimeli` | Editoris Melicorum / Editors of Melodies | Music typesetting tools | 
+| **EdTab** | `edtab` | Editoris Tabularum / Editors of Documents | Document publishing tools | 
+| **ArchAlc** | `archalc` | Architectus Calculonis / Computerized Architect | 2D design / 3D modelling tools |
+| **MAtte** | `matte` | Manípulus Attestatiónum / Sheaf of Testimonies | Building multilingual parallel scripture passages |
+| **LibRext** | `librext` | Librarium Textuum / Library of Frameworks | UI design system and component library |
 
 ## USE CASE, DATA FLOW
 
@@ -51,15 +45,6 @@ User interactions are expected to have this data flow:
 
 ## MAIN MODULES
 
-Detailed descriptions, rough API designs. See [FAVI Data Models](./img/favi-data-models.md) for details on input data formats.
-
-| Module | Role | Main Function |
-| --- | --- | --- |
-| [TABA](https://github.com/guild-st-isidore-TO/tabula-aetherea) | System UI for the GSI Workspace | Main webpage and UI for FAVI. Accessible through a web browser, and allows data entry and file uploading into the system when using our tools. |
-| [EMEL](https://github.com/guild-st-isidore-TO/editorismelicorum) | Music typesetting tools | Translating music written in Gregorian Chant notation into Standard notation. And then using that info to create partial scores for writing accompaniments, or complete scores. |
-| [ETAB](https://github.com/guild-st-isidore-TO/editoristabularum) | Document publishing tools | Creates (low-key) multimedia and multilingual documents. Like liturgy programs combining text (in English/Latin/French), images (covers, ornaments), and music scores (hymns, chants). |
-| [ARCA](https://github.com/guild-st-isidore-TO/architectuscalculonis) | 2D design / 3D modelling tools | Creates 2D designs (SVG) for documents and 3D models (STL, 3MF) for useful things in parish activities. |
-
 ### COMMON
 
 Functions common to all FAVI modules
@@ -72,14 +57,14 @@ Functions common to all FAVI modules
 | Info Report | `info` | ... |
 | Status Report | `status` | ... |
 
-### TABA
+### TabAeth
 
 https://github.com/guild-st-isidore-TO/tabula-aetherea  
 Core techs: JavaScript, Node, React, [Refine](https://refine.dev/)
 
 Tabula Aetherea is GSI's System UI, the main webpage and user interface for the apps we've created. Accessible through a web browser, and allows data entry and file uploading into the system. As users access the TABA front-end, the TABA server will use the appropriate FAVI module to complete tasks.
 
-### EMEL
+### EdiMeli
 
 https://github.com/guild-st-isidore-TO/editorismelicorum  
 Core techs: Python, LilyPond, gabctk
@@ -116,7 +101,7 @@ returns **PDF documents**
 | `input_ly_files` | LilyPondFile[] | ... |
 | `config` | object | Configurations and settings |
 
-### ETAB
+### EdTab
 
 https://github.com/guild-st-isidore-TO/editoristabularum  
 Core techs: Python, Pandoc, LaTEX
@@ -158,7 +143,7 @@ returns **PDF document**
 | `document` | DocumentFile | ... |
 | `config` | object | Configurations and settings |
 
-### ARCA
+### ArchAlc
 
 https://github.com/guild-st-isidore-TO/architectuscalculonis  
 Core techs: Python, FreeCAD
@@ -184,20 +169,3 @@ returns **SVG image**
 | `int_width` | number | ... |
 | `int_corner_style` | string | ... |
 | `config` | object | Configurations and settings |
-
-## UPCOMING MODULES
-
-### CALI
-
-https://github.com/guild-st-isidore-TO/calendarium-interretialum  
-Core techs: ????
-
-Calendarium Interretialum creates customizable liturgical calendars with varying degrees of detail
-
-### FERA
-
-Ferrarius Picturae -- Image Processing Tools
-
-### DHAC
-
-Descriptionis Harmoniarum Citharae -- Guitar Diagram Lib / Tools

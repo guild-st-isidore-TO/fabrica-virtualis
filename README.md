@@ -15,13 +15,32 @@ On Hold -- Under active redesign
 - [FAVI Modules](static/design/favi-module.md)
 - [FAVI Data Models](static/design/favi-data-models.md)
 
-### Typical Use Case
+### Modules
+
+Planned software modules for the system:
+
+| Module | Module Slug | Full name | Role |
+| --- | --- | --- | --- |
+| **TabAeth** | `tabaeth` | Tabula Aetherea / Ethereal Tablet | System UI for the GSI Workspace | 
+| **EdiMeli** | `edimeli` | Editoris Melicorum / Editors of Melodies | Music typesetting tools | 
+| **EdTab** | `edtab` | Editoris Tabularum / Editors of Documents | Document publishing tools | 
+| **ArchAlc** | `archalc` | Architectus Calculonis / Computerized Architect | 2D design / 3D modelling tools |
+| **MAtte** | `matte` | Manípulus Attestatiónum / Sheaf of Testimonies | Building multilingual parallel scripture passages |
+| **LibRext** | `librext` | Librarium Textuum / Library of Frameworks | UI design system and component library |
+
+### Typical Use Cases
+
+#### BROWSER
 
 1. User accesses the system through their web browser.
 1. User directs their browser to the TABA web page.
 1. As the user interacts with the TABA UI, the TABA server interacts with the other FAVI modules via REST API.
 
-## MODULES
+#### COMMAND LINE INTERFACE
+
+...
+
+## FAVI MODULES
 
 **FAVI** modules are packaged like so:
 
@@ -29,7 +48,7 @@ On Hold -- Under active redesign
 1. **Module Web Server** that exposes functionality from
 1. the **Module Core**
 
-![FAVI module](./static/design/favi-module.svg "FAVI module")
+![FAVI module](./static/design/img/favi-module-1.0.svg "FAVI module")
 
 This implementation allows users to tweak configurations as necessary. For customizing how these modules fit together, adding their own to the cluster, etc.
 
@@ -39,6 +58,6 @@ For more information, please see [FAVI Modules](static/design/favi-module.md)
 
 **FAVI** is designed to handle the following file types:
 
-![FAVI data models](./static/design/favi-data-models.svg "FAVI data models")
+![FAVI data models](./static/design/img/favi-data-models-1.0.svg "FAVI data models")
 
 For more information, please see [FAVI Data Models](static/design/favi-data-models.md)
