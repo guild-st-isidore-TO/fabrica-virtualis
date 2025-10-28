@@ -4,10 +4,9 @@ Back to [main README](../../README.md)
 
 ---
 
-> STATUS (XI Augustii MMXXV)  
-Work in Progress -- Designing API endpoints, inputs, etc
-
 **FAVI** will be a Docker cluster composed of the following elements:
+
+![FAVI system](./img/favi-system-1.1.svg "FAVI system")
 
 ### System Modules
 

@@ -1,32 +1,54 @@
 digraph {
-    label = "\nFAVI\nSystem and modules\nv1.0";
+    label = "\nFAVI\nSystem and modules\nv1.1";
     node [shape = box;];
     
-    user -> tabulaAetherea;
+    user -> tabaeth;
+    
+    tabaeth -> edimeli;
+    tabaeth -> edtab;
+    tabaeth -> matte;
+    tabaeth -> archalc;
+    
+    tabaeth -> librext;
+    
+    tabaeth -> arcodi;
+    edimeli -> arcodi;
+    edtab -> arcodi;
+    matte -> arcodi;
+    archalc -> arcodi;
+    
+    user [label = "User";colorscheme=set19;color = 1;];
     
     subgraph cluster_0 {
-        label = "FAVI System";
+        label = "System Modules";
         color = black;
-        bgcolor = grey90;
-        penwidth = 2;
+        bgcolor = grey93;
+        penwidth = 1.5;
         node [bgcolor = white;];
         
-        tabulaAetherea -> editorisMelicorum [color = darkmagenta;];
-        tabulaAetherea -> editorisTabularum [color = darkmagenta;];
-        tabulaAetherea -> architectusCalculonis [color = darkmagenta;];
-        tabulaAetherea -> calendariumIhterretialum [color = darkmagenta;];
+        tabaeth [label = "Tabula Aetherea\nEthereal Tablet";colorscheme=set19;color = 2;];
+    }
+    subgraph cluster_1 {
+        label = "API Modules";
+        color = black;
+        bgcolor = grey93;
+        penwidth = 1.5;
+        node [bgcolor = white;];
         
-        editorisTabularum -> editorisMelicorum [color = orange;];
-        editorisTabularum -> architectusCalculonis [color = orange;];
-        editorisTabularum -> calendariumIhterretialum [color = orange;];
+        archalc [label = "Editoris Melicorum\nEditors of Melodies";colorscheme=set19;color = 3;];
+        matte [label = "Editoris Tabularum\nEditors of Documents";colorscheme=set19;color = 3;];
+        edimeli [label = "Architectus Calculonis\nComputerized Architect";colorscheme=set19;color = 3;];
+        edtab [label = "Manípulus Attestatiónum\nSheaf of Testimonies";colorscheme=set19;color = 3;];
     }
     
-    user [label = "User";];
-    
-    tabulaAetherea [label = "TABA\nTabula Aetherea";color = darkmagenta;];
-    architectusCalculonis [label = "ARCA\nArchitectus Calculonis";color = blue;];
-    calendariumIhterretialum [label = "CALI\nCalendarium Interretialum";color = green;];
-    
-    editorisTabularum [label = "ETAB\nEditoris Tabularum";color = orange;];
-    editorisMelicorum [label = "EMEL\nEditoris Melicorum";color = red;];
+    subgraph cluster_2 {
+        label = "Libraries";
+        color = black;
+        bgcolor = grey93;
+        penwidth = 1.5;
+        node [bgcolor = white;];
+        
+        librext [label = "Librarium Textuum\nLibrary of Frameworks";shape = cylinder;colorscheme=set19;color = 4;];
+        arcodi [label = "Armamentarium Codicum\nArmory of Books";shape = cylinder;colorscheme=set19;color = 4;];
+    }
 }

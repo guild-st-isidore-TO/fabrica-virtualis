@@ -1,0 +1,147 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="754pt" height="413pt" viewBox="0.00 0.00 754.00 413.20">
+<g id="graph0" class="graph" transform="translate(71.63775808736472,335.33497152080685) scale(0.7845157235296825)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-409.2 750,-409.2 750,4 -4,4"/>
+<text text-anchor="middle" x="373" y="-41.8" font-family="Times,serif" font-size="14.00">FAVI</text>
+<text text-anchor="middle" x="373" y="-25" font-family="Times,serif" font-size="14.00">System and modules</text>
+<text text-anchor="middle" x="373" y="-8.2" font-family="Times,serif" font-size="14.00">v1.1</text>
+<g id="clust1" class="cluster" data-name="cluster_0">
+
+<polygon fill="#ededed" stroke="black" stroke-width="1.5" points="441,-278.8 441,-361.2 565,-361.2 565,-278.8 441,-278.8"/>
+<text text-anchor="middle" x="503" y="-344.6" font-family="Times,serif" font-size="14.00">System Modules</text>
+</g>
+<g id="clust2" class="cluster" data-name="cluster_1">
+
+<polygon fill="#ededed" stroke="black" stroke-width="1.5" points="8,-188.4 8,-270.8 656,-270.8 656,-188.4 8,-188.4"/>
+<text text-anchor="middle" x="332" y="-254.2" font-family="Times,serif" font-size="14.00">API Modules</text>
+</g>
+<g id="clust3" class="cluster" data-name="cluster_2">
+
+<polygon fill="#ededed" stroke="black" stroke-width="1.5" points="394,-82.4 394,-180.4 738,-180.4 738,-82.4 394,-82.4"/>
+<text text-anchor="middle" x="566" y="-163.8" font-family="Times,serif" font-size="14.00">Libraries</text>
+</g>
+<!-- user -->
+<g id="node1" class="node" pointer-events="visible" data-name="user">
+
+<polygon fill="none" stroke="#e41a1c" points="530,-405.2 476,-405.2 476,-369.2 530,-369.2 530,-405.2"/>
+<text text-anchor="middle" x="503" y="-383" font-family="Times,serif" font-size="14.00">User</text>
+</g>
+<!-- tabaeth -->
+<g id="node2" class="node" pointer-events="visible" data-name="tabaeth">
+
+<polygon fill="none" stroke="#377eb8" points="557.39,-328.2 448.61,-328.2 448.61,-287 557.39,-287 557.39,-328.2"/>
+<text text-anchor="middle" x="503" y="-311.8" font-family="Times,serif" font-size="14.00">Tabula Aetherea</text>
+<text text-anchor="middle" x="503" y="-295" font-family="Times,serif" font-size="14.00">Ethereal Tablet</text>
+</g>
+<!-- user&#45;&gt;tabaeth -->
+<g id="edge1" class="edge" data-name="user-&gt;tabaeth">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M503,-368.98C503,-360.38 503,-349.7 503,-339.73"/>
+<polygon fill="black" stroke="black" points="506.5,-340.03 503,-330.03 499.5,-340.03 506.5,-340.03"/>
+</g>
+<!-- edimeli -->
+<g id="node3" class="node" pointer-events="visible" data-name="edimeli">
+
+<polygon fill="none" stroke="#4daf4a" points="346.39,-237.8 195.61,-237.8 195.61,-196.6 346.39,-196.6 346.39,-237.8"/>
+<text text-anchor="middle" x="271" y="-221.4" font-family="Times,serif" font-size="14.00">Architectus Calculonis</text>
+<text text-anchor="middle" x="271" y="-204.6" font-family="Times,serif" font-size="14.00">Computerized Architect</text>
+</g>
+<!-- tabaeth&#45;&gt;edimeli -->
+<g id="edge2" class="edge" data-name="tabaeth-&gt;edimeli">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M448.23,-297.73C419.73,-292.03 384.73,-283.31 355,-270.8 338.51,-263.86 321.55,-253.88 307.23,-244.47"/>
+<polygon fill="black" stroke="black" points="309.28,-241.63 299.03,-238.94 305.36,-247.43 309.28,-241.63"/>
+</g>
+<!-- edtab -->
+<g id="node4" class="node" pointer-events="visible" data-name="edtab">
+
+<polygon fill="none" stroke="#4daf4a" points="177.82,-237.8 16.18,-237.8 16.18,-196.6 177.82,-196.6 177.82,-237.8"/>
+<text text-anchor="middle" x="97" y="-221.4" font-family="Times,serif" font-size="14.00">Manípulus Attestatiónum</text>
+<text text-anchor="middle" x="97" y="-204.6" font-family="Times,serif" font-size="14.00">Sheaf of Testimonies</text>
+</g>
+<!-- tabaeth&#45;&gt;edtab -->
+<g id="edge3" class="edge" data-name="tabaeth-&gt;edtab">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M448.14,-307.19C383.93,-306.35 275.15,-300.1 187,-270.8 168.37,-264.61 149.37,-254.22 133.65,-244.3"/>
+<polygon fill="black" stroke="black" points="135.88,-241.58 125.59,-239.05 132.06,-247.44 135.88,-241.58"/>
+</g>
+<!-- matte -->
+<g id="node5" class="node" pointer-events="visible" data-name="matte">
+
+<polygon fill="none" stroke="#4daf4a" points="648.37,-237.8 509.63,-237.8 509.63,-196.6 648.37,-196.6 648.37,-237.8"/>
+<text text-anchor="middle" x="579" y="-221.4" font-family="Times,serif" font-size="14.00">Editoris Tabularum</text>
+<text text-anchor="middle" x="579" y="-204.6" font-family="Times,serif" font-size="14.00">Editors of Documents</text>
+</g>
+<!-- tabaeth&#45;&gt;matte -->
+<g id="edge4" class="edge" data-name="tabaeth-&gt;matte">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M520.25,-286.54C530.35,-274.79 543.28,-259.75 554.44,-246.77"/>
+<polygon fill="black" stroke="black" points="556.97,-249.19 560.84,-239.33 551.66,-244.63 556.97,-249.19"/>
+</g>
+<!-- archalc -->
+<g id="node6" class="node" pointer-events="visible" data-name="archalc">
+
+<polygon fill="none" stroke="#4daf4a" points="491.71,-237.8 364.29,-237.8 364.29,-196.6 491.71,-196.6 491.71,-237.8"/>
+<text text-anchor="middle" x="428" y="-221.4" font-family="Times,serif" font-size="14.00">Editoris Melicorum</text>
+<text text-anchor="middle" x="428" y="-204.6" font-family="Times,serif" font-size="14.00">Editors of Melodies</text>
+</g>
+<!-- tabaeth&#45;&gt;archalc -->
+<g id="edge5" class="edge" data-name="tabaeth-&gt;archalc">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M485.98,-286.54C476.01,-274.79 463.25,-259.75 452.24,-246.77"/>
+<polygon fill="black" stroke="black" points="455.07,-244.7 445.93,-239.33 449.73,-249.22 455.07,-244.7"/>
+</g>
+<!-- librext -->
+<g id="node7" class="node" pointer-events="visible" data-name="librext">
+
+<path fill="none" stroke="rgb(152, 78, 163)" d="M730.13,-142.48C730.13,-145.36 697.35,-147.7 657,-147.7 616.65,-147.7 583.87,-145.36 583.87,-142.48 583.87,-142.48 583.87,-95.52 583.87,-95.52 583.87,-92.64 616.65,-90.3 657,-90.3 697.35,-90.3 730.13,-92.64 730.13,-95.52 730.13,-95.52 730.13,-142.48 730.13,-142.48"/>
+<path fill="none" stroke="rgb(152, 78, 163)" d="M730.13,-142.48C730.13,-139.6 697.35,-137.26 657,-137.26 616.65,-137.26 583.87,-139.6 583.87,-142.48"/>
+<text text-anchor="middle" x="657" y="-123.2" font-family="Times,serif" font-size="14.00">Librarium Textuum</text>
+<text text-anchor="middle" x="657" y="-106.4" font-family="Times,serif" font-size="14.00">Library of Frameworks</text>
+</g>
+<!-- tabaeth&#45;&gt;librext -->
+<g id="edge6" class="edge" data-name="tabaeth-&gt;librext">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M557.78,-303.11C604.49,-298.85 666.48,-289.73 682,-270.8 707.73,-239.41 693.79,-191.7 678.4,-158.38"/>
+<polygon fill="black" stroke="black" points="681.59,-156.92 674.06,-149.46 675.29,-159.99 681.59,-156.92"/>
+</g>
+<!-- arcodi -->
+<g id="node8" class="node" pointer-events="visible" data-name="arcodi">
+
+<path fill="none" stroke="rgb(152, 78, 163)" d="M565.86,-142.48C565.86,-145.36 529.17,-147.7 484,-147.7 438.83,-147.7 402.14,-145.36 402.14,-142.48 402.14,-142.48 402.14,-95.52 402.14,-95.52 402.14,-92.64 438.83,-90.3 484,-90.3 529.17,-90.3 565.86,-92.64 565.86,-95.52 565.86,-95.52 565.86,-142.48 565.86,-142.48"/>
+<path fill="none" stroke="rgb(152, 78, 163)" d="M565.86,-142.48C565.86,-139.6 529.17,-137.26 484,-137.26 438.83,-137.26 402.14,-139.6 402.14,-142.48"/>
+<text text-anchor="middle" x="484" y="-123.2" font-family="Times,serif" font-size="14.00">Armamentarium Codicum</text>
+<text text-anchor="middle" x="484" y="-106.4" font-family="Times,serif" font-size="14.00">Armory of Books</text>
+</g>
+<!-- tabaeth&#45;&gt;arcodi -->
+<g id="edge7" class="edge" data-name="tabaeth-&gt;arcodi">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M557.59,-301.34C597.66,-296.22 647.23,-286.81 660,-270.8 682.84,-242.17 684.65,-215.48 660,-188.4 647.23,-174.37 592.89,-186.73 575,-180.4 554.68,-173.21 534.46,-160.5 518.26,-148.58"/>
+<polygon fill="black" stroke="black" points="520.5,-145.89 510.42,-142.62 516.26,-151.46 520.5,-145.89"/>
+</g>
+<!-- edimeli&#45;&gt;arcodi -->
+<g id="edge8" class="edge" data-name="edimeli-&gt;arcodi">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M315.39,-196.15C347.21,-181.78 390.41,-162.27 425.11,-146.6"/>
+<polygon fill="black" stroke="black" points="426.53,-149.8 434.2,-142.49 423.65,-143.42 426.53,-149.8"/>
+</g>
+<!-- edtab&#45;&gt;arcodi -->
+<g id="edge9" class="edge" data-name="edtab-&gt;arcodi">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M159.77,-196.17C168.88,-193.45 178.16,-190.78 187,-188.4 254.68,-170.18 331.84,-152.5 390.55,-139.68"/>
+<polygon fill="black" stroke="black" points="391.15,-143.13 400.18,-137.59 389.66,-136.29 391.15,-143.13"/>
+</g>
+<!-- matte&#45;&gt;arcodi -->
+<g id="edge10" class="edge" data-name="matte-&gt;arcodi">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M559.32,-196.27C547.78,-184.58 532.86,-169.47 519.34,-155.79"/>
+<polygon fill="black" stroke="black" points="522.16,-153.66 512.65,-149.01 517.18,-158.58 522.16,-153.66"/>
+</g>
+<!-- archalc&#45;&gt;arcodi -->
+<g id="edge11" class="edge" data-name="archalc-&gt;arcodi">
+
+<path fill="none" stroke="rgb(0, 0, 0)" d="M439.6,-196.27C447.1,-183.39 457.02,-166.35 465.58,-151.65"/>
+<polygon fill="black" stroke="black" points="468.47,-153.63 470.48,-143.23 462.42,-150.11 468.47,-153.63"/>
+</g>
+</g>
+</svg>

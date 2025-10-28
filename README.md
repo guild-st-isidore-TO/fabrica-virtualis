@@ -11,11 +11,13 @@ On Hold -- Under active redesign
 
 ## DESIGN
 
-- [System](static/design/system.md)
-- [FAVI Module](static/design/favi-module.md)
-- [API Modules](static/design/api-modules.md)
-- [Library Modules](static/design/libraries.md)
-- [Data Models](static/design/data-models.md)
+![FAVI system](./static/design/img/favi-system-1.1.svg "FAVI system")
+
+- [System](./static/design/system.md)
+- [FAVI Module](./static/design/favi-module.md)
+- [API Modules](./static/design/api-modules.md)
+- [Library Modules](./static/design/libraries.md)
+- [Data Models](./static/design/data-models.md)
 
 ### Modules
 
