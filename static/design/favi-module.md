@@ -1,12 +1,14 @@
-# FAVI Modules
+# FAVI Module
 
 Back to [main README](../../README.md)
 
 ---
 
-**FAVI** modules are packaged like so:
+## API Modules
 
-1. Modules use a **Docker container** which hosts the
+**FAVI API** modules are packaged like so:
+
+1. API Modules use a **Docker container** which hosts the
 1. **Module Web Server** that exposes functionality from
 1. the **Module Core**
 

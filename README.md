@@ -11,9 +11,11 @@ On Hold -- Under active redesign
 
 ## DESIGN
 
-- [FAVI System](static/design/favi-system.md)
-- [FAVI Modules](static/design/favi-module.md)
-- [FAVI Data Models](static/design/favi-data-models.md)
+- [System](static/design/system.md)
+- [FAVI Module](static/design/favi-module.md)
+- [API Modules](static/design/api-modules.md)
+- [Library Modules](static/design/libraries.md)
+- [Data Models](static/design/data-models.md)
 
 ### Modules
 
@@ -52,7 +54,7 @@ Planned software modules for the system:
 
 This implementation allows users to tweak configurations as necessary. For customizing how these modules fit together, adding their own to the cluster, etc.
 
-For more information, please see [FAVI Modules](static/design/favi-module.md)
+For more information, please see [FAVI Modules](static/design/module.md)
 
 ## DATA MODELS
 
@@ -60,4 +62,4 @@ For more information, please see [FAVI Modules](static/design/favi-module.md)
 
 ![FAVI data models](./static/design/img/favi-data-models-1.0.svg "FAVI data models")
 
-For more information, please see [FAVI Data Models](static/design/favi-data-models.md)
+For more information, please see [FAVI Data Models](static/design/data-models.md)
