@@ -21,14 +21,27 @@ On Hold -- Under active redesign
 
 Planned software modules for the system:
 
-| Module | Module Slug | Full name | Role |
+### System Modules
+
+| Module | Slug | Full name | Role |
 | --- | --- | --- | --- |
 | **TabAeth** | `tabaeth` | Tabula Aetherea / Ethereal Tablet | System UI for the GSI Workspace | 
+
+### API Modules
+
+| Module | Slug | Full name | Role |
+| --- | --- | --- | --- |
 | **EdiMeli** | `edimeli` | Editoris Melicorum / Editors of Melodies | Music typesetting tools | 
 | **EdTab** | `edtab` | Editoris Tabularum / Editors of Documents | Document publishing tools | 
 | **ArchAlc** | `archalc` | Architectus Calculonis / Computerized Architect | 2D design / 3D modelling tools |
 | **MAtte** | `matte` | Manípulus Attestatiónum / Sheaf of Testimonies | Building multilingual parallel scripture passages |
+
+### Libraries
+
+| Library | Slug | Full name | Role |
+| --- | --- | --- | --- |
 | **LibRext** | `librext` | Librarium Textuum / Library of Frameworks | UI design system and component library |
+| **ArCodi** | `arcodi` | Armamentarium Codicum / Armory of Books | Code and function library. |
 
 ### Typical Use Cases
 
