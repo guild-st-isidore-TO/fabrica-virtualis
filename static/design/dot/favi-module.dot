@@ -1,5 +1,5 @@
 digraph {
-    label = "\nFAVI module\nimplementation\nv0.2";
+    label = "\nFAVI module\nimplementation\nv1.0";
     node [shape = box;];
     
     extModule -> webServer;

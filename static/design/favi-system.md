@@ -24,8 +24,6 @@ Modules planned for development:
 | FERA | Ferrarius Picturae | Blacksmith of Pictures | Image Processing Tools |
 | DHAC | Descriptionis Harmoniarum Citharae | Diagrams of Guitar Harmonies | Guitar Diagram Lib / Tools |
 
-![FAVI system](./img/favi-system.svg "FAVI system")
-
 ## USE CASE, DATA FLOW
 
 ### Typical Use Case

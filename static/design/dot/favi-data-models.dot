@@ -1,5 +1,5 @@
 digraph {
-    label = "\nFAVI\ndata models\nv0.1";
+    label = "\nFAVI\ndata models\nv1.0";
     node [shape = box;];
     
     genericFile -> textFile [dir = both; arrowhead = none; arrowtail = onormal;];
