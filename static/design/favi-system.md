@@ -24,7 +24,7 @@ Modules planned for development:
 | FERA | Ferrarius Picturae | Blacksmith of Pictures | Image Processing Tools |
 | DHAC | Descriptionis Harmoniarum Citharae | Diagrams of Guitar Harmonies | Guitar Diagram Lib / Tools |
 
-![FAVI system](./favi-system.svg "FAVI system")
+![FAVI system](./img/favi-system.svg "FAVI system")
 
 ## USE CASE, DATA FLOW
 
@@ -53,7 +53,7 @@ User interactions are expected to have this data flow:
 
 ## MAIN MODULES
 
-Detailed descriptions, rough API designs. See [FAVI Data Models](./favi-data-models.md) for details on input data formats.
+Detailed descriptions, rough API designs. See [FAVI Data Models](./img/favi-data-models.md) for details on input data formats.
 
 | Module | Role | Main Function |
 | --- | --- | --- |

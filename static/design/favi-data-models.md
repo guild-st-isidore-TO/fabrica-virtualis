@@ -8,7 +8,7 @@ Common data formats understood by FAVI modules
 
 ## ENTITY MODELS
 
-![FAVI data models](./favi-data-models.svg "FAVI data models")
+![FAVI data models](./img/favi-data-models.svg "FAVI data models")
 
 ### Generic File
 

@@ -10,7 +10,7 @@ Back to [main README](../../README.md)
 1. **Module Web Server** that exposes functionality from
 1. the **Module Core**
 
-![FAVI module](./favi-module.svg "FAVI module")
+![FAVI module](./img/favi-module.svg "FAVI module")
 
 This implementation allows users to tweak configurations as necessary. For customizing how these modules fit together, adding their own to the cluster, etc.
 
