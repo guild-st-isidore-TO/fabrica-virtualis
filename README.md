@@ -37,6 +37,7 @@ Planned software modules for the system:
 | **EdiMeli** | `edimeli` | Editoris Melicorum / Editors of Melodies | Music typesetting tools | 
 | **EdTab** | `edtab` | Editoris Tabularum / Editors of Documents | Document publishing tools | 
 | **ArchAlc** | `archalc` | Architectus Calculonis / Computerized Architect | 2D design / 3D modelling tools |
+| **ArPictu** | `arpictu` | Artifex Picturarum | Image processing tools |
 | **MAtte** | `matte` | Manípulus Attestatiónum / Sheaf of Testimonies | Building multilingual parallel scripture passages |
 
 ### Libraries
