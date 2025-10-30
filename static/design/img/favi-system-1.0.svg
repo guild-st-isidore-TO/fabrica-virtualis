@@ -20,7 +20,7 @@
 <g id="node2" class="node" pointer-events="visible" data-name="tabulaAetherea">
 
 <polygon fill="none" stroke="darkmagenta" points="309.39,-287 200.61,-287 200.61,-245.8 309.39,-245.8 309.39,-287" style=""/>
-<text text-anchor="middle" x="255" y="-270.6" font-family="Times,serif" font-size="14.00" style="">TABA</text>
+<text text-anchor="middle" x="255" y="-270.6" font-family="Times,serif" font-size="14.00" style="">TabAeth</text>
 <text text-anchor="middle" x="255" y="-253.8" font-family="Times,serif" font-size="14.00" style="">Tabula Aetherea</text>
 </g>
 <!-- user&#45;&gt;tabulaAetherea -->
@@ -33,7 +33,7 @@
 <g id="node3" class="node" pointer-events="visible" data-name="editorisMelicorum">
 
 <polygon fill="none" stroke="red" points="142.04,-131.8 15.96,-131.8 15.96,-90.6 142.04,-90.6 142.04,-131.8" style=""/>
-<text text-anchor="middle" x="79" y="-115.4" font-family="Times,serif" font-size="14.00" style="">EMEL</text>
+<text text-anchor="middle" x="79" y="-115.4" font-family="Times,serif" font-size="14.00" style="">EdiMeli</text>
 <text text-anchor="middle" x="79" y="-98.6" font-family="Times,serif" font-size="14.00" style="">Editoris Melicorum</text>
 </g>
 <!-- tabulaAetherea&#45;&gt;editorisMelicorum -->
@@ -46,7 +46,7 @@
 <g id="node4" class="node" pointer-events="visible" data-name="editorisTabularum">
 
 <polygon fill="none" stroke="orange" points="276.75,-209.4 151.25,-209.4 151.25,-168.2 276.75,-168.2 276.75,-209.4" style=""/>
-<text text-anchor="middle" x="214" y="-193" font-family="Times,serif" font-size="14.00" style="">ETAB</text>
+<text text-anchor="middle" x="214" y="-193" font-family="Times,serif" font-size="14.00" style="">EdTab</text>
 <text text-anchor="middle" x="214" y="-176.2" font-family="Times,serif" font-size="14.00" style="">Editoris Tabularum</text>
 </g>
 <!-- tabulaAetherea&#45;&gt;editorisTabularum -->
@@ -59,7 +59,7 @@
 <g id="node5" class="node" pointer-events="visible" data-name="architectusCalculonis">
 
 <polygon fill="none" stroke="blue" points="303.91,-131.8 160.09,-131.8 160.09,-90.6 303.91,-90.6 303.91,-131.8" style=""/>
-<text text-anchor="middle" x="232" y="-115.4" font-family="Times,serif" font-size="14.00" style="">ARCA</text>
+<text text-anchor="middle" x="232" y="-115.4" font-family="Times,serif" font-size="14.00" style="">ArchAlc</text>
 <text text-anchor="middle" x="232" y="-98.6" font-family="Times,serif" font-size="14.00" style="">Architectus Calculonis</text>
 </g>
 <!-- tabulaAetherea&#45;&gt;architectusCalculonis -->

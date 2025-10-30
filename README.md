@@ -54,8 +54,8 @@ Planned software modules for the system:
 #### BROWSER
 
 1. User accesses the system through their web browser.
-1. User directs their browser to the TABA web page.
-1. As the user interacts with the TABA UI, the TABA server interacts with the other FaVirtu modules via REST API.
+1. User directs their browser to the TabAeth web page.
+1. As the user interacts with the TabAeth UI, the TabAeth server interacts with the other FaVirtu modules via REST API.
 
 #### COMMAND LINE INTERFACE
 

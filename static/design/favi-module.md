@@ -22,7 +22,7 @@ The base Docker image and web server platform should match the core module's tec
 
 | Module | Core Techs | Notes |
 | --- | --- | --- |
-| TABA | JavaScript, Node, Next, Electron | ... |
-| EMEL | Python, LilyPond | ... |
-| ETAB | Python, Pandoc | ... |
-| ARCA | Python, FreeCAD | ... |
+| TabAeth | JavaScript, Node, Next, Electron | ... |
+| EdiMeli | Python, LilyPond | ... |
+| EdTab | Python, Pandoc | ... |
+| ArchAlc | Python, FreeCAD | ... |

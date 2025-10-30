@@ -16,8 +16,13 @@ Any kind of file
 
 | Property | Type | Required | Description |
 | --- | --- | --- | --- |
-| **Path** | string | yes | File's location in file system |
+| **Filename** | string | yes | File's name |
+| **Directory** | string | yes | File's location in system |
+| **Path** | string | yes | File's location and name |
+| **Format** | string | yes | File extension / type |
 | **ID** | string | yes | String identifier used throughout system, sometimes in outputs. |
+| **Filestub** | string | yes | File's name without format extension |
+| **Fileslug** | string | yes | Lowercase slug-ified version of Filestub |
 | **Tags** | string[] | no | List of tags for this file |
 
 ### Image File
@@ -70,7 +75,7 @@ LilyPond score files
 
 ## FaVirtu MODELS
 
-### EMEL Document
+### EdiMeli Document
 
 EXTENDS **LilyPond File**  
 
@@ -80,7 +85,7 @@ Documents hanlded by Editoris Melicorum
 | --- | --- | --- | --- |
 | **Version** | string | no | Document version |
 
-### ETAB Document
+### EdTab Document
 
 EXTENDS **Markdown File**  
 
