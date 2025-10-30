@@ -1,20 +1,20 @@
-# Fabrica Virtualis (FAVI)
+# FaVirtu (Fabrica Virtualis / Virtual Workshop)
 
-Virtual Workspace for GSI
+The GSI Workspace
 
 ---
 
-**FAVI** is the GSI's Virtual Workspace, where users can access the modules that we've created. Under the hood, this is where modules are integrated together into a complete functioning system.
+**FaVirtu** is the GSI's virtual workspace, where users can access the modules that we've created. Under the hood, this is where GSI modules are integrated together into a complete functioning system.
 
 > STATUS (XXVIII Octobris MMXXV)  
 On Hold -- Under active redesign
 
 ## DESIGN
 
-![FAVI system](./static/design/img/favi-system-1.1.svg "FAVI system")
+![FaVirtu system](./static/design/img/favi-system-1.1.svg "FaVirtu system")
 
 - [System](./static/design/system.md)
-- [FAVI Module](./static/design/favi-module.md)
+- [FaVirtu Module](./static/design/favi-module.md)
 - [API Modules](./static/design/api-modules.md)
 - [Library Modules](./static/design/libraries.md)
 - [Data Models](./static/design/data-models.md)
@@ -27,6 +27,7 @@ Planned software modules for the system:
 
 | Module | Slug | Full name | Role |
 | --- | --- | --- | --- |
+| **FaVirtu** | `favirtu` | Fabrica Virtualis / Virtual Workspace | GSI Workspace | 
 | **TabAeth** | `tabaeth` | Tabula Aetherea / Ethereal Tablet | System UI for the GSI Workspace | 
 
 ### API Modules
@@ -51,30 +52,30 @@ Planned software modules for the system:
 
 1. User accesses the system through their web browser.
 1. User directs their browser to the TABA web page.
-1. As the user interacts with the TABA UI, the TABA server interacts with the other FAVI modules via REST API.
+1. As the user interacts with the TABA UI, the TABA server interacts with the other FaVirtu modules via REST API.
 
 #### COMMAND LINE INTERFACE
 
 ...
 
-## FAVI MODULES
+## FaVirtu MODULES
 
-**FAVI** modules are packaged like so:
+**FaVirtu** modules are packaged like so:
 
 1. Modules use a **Docker container** which hosts the
 1. **Module Web Server** that exposes functionality from
 1. the **Module Core**
 
-![FAVI module](./static/design/img/favi-module-1.0.svg "FAVI module")
+![FaVirtu module](./static/design/img/favi-module-1.0.svg "FaVirtu module")
 
 This implementation allows users to tweak configurations as necessary. For customizing how these modules fit together, adding their own to the cluster, etc.
 
-For more information, please see [FAVI Modules](static/design/module.md)
+For more information, please see [FaVirtu Modules](static/design/module.md)
 
 ## DATA MODELS
 
-**FAVI** is designed to handle the following file types:
+**FaVirtu** is designed to handle the following file types:
 
-![FAVI data models](./static/design/img/favi-data-models-1.0.svg "FAVI data models")
+![FaVirtu data models](./static/design/img/favi-data-models-1.0.svg "FaVirtu data models")
 
-For more information, please see [FAVI Data Models](static/design/data-models.md)
+For more information, please see [FaVirtu Data Models](static/design/data-models.md)

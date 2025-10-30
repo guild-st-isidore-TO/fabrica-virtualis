@@ -1,5 +1,5 @@
 digraph {
-    label = "\nFAVI module\nimplementation\nv1.0";
+    label = "\nFaVirtu module\nimplementation\nv1.0";
     node [shape = box;];
     
     extModule -> webServer;
@@ -15,7 +15,7 @@ digraph {
         webServer -> coreModule [color = blue;];
     }
     
-    extModule [label = "other FAVI module";];
+    extModule [label = "other FaVirtu module";];
     
     webServer [label = "Module\nWeb Server";color = blue;fontcolor = blue;];
     

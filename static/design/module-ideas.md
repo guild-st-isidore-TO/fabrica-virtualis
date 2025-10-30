@@ -2,7 +2,7 @@
 
 ## CODE REUSE
 
-Integrating previous works as FAVI modules
+Integrating previous works as FaVirtu modules
 
 ### Calendarium Interretialum
 

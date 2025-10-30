@@ -1,14 +1,14 @@
-# FAVI Data Models
+# FaVirtu Data Models
 
 Back to [main README](../../README.md)
 
 ---
 
-Common data formats understood by FAVI modules
+Common data formats understood by FaVirtu modules
 
 ## ENTITY MODELS
 
-![FAVI data models](./img/favi-data-models-1.0.svg "FAVI data models")
+![FaVirtu data models](./img/favi-data-models-1.0.svg "FaVirtu data models")
 
 ### Generic File
 
@@ -68,7 +68,7 @@ LilyPond score files
 
 `// TODO -- Add metadata`
 
-## FAVI MODELS
+## FaVirtu MODELS
 
 ### EMEL Document
 

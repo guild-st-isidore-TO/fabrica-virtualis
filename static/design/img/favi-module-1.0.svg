@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="139pt" height="294pt" viewBox="0.00 0.00 139.00 294.40">
 <g id="graph0" class="graph" transform="translate(4,290.3999938964844) scale(1)" data-name="">
 <polygon fill="white" stroke="none" points="-4,4 -4,-290.4 135,-290.4 135,4 -4,4" style=""/>
-<text text-anchor="middle" x="65.5" y="-41.8" font-family="Times,serif" font-size="14.00" style="">FAVI module</text>
+<text text-anchor="middle" x="65.5" y="-41.8" font-family="Times,serif" font-size="14.00" style="">FaVirtu module</text>
 <text text-anchor="middle" x="65.5" y="-25" font-family="Times,serif" font-size="14.00" style="">implementation</text>
 <text text-anchor="middle" x="65.5" y="-8.2" font-family="Times,serif" font-size="14.00" style="">v0.2</text>
 <g id="clust1" class="cluster" data-name="cluster_0">
@@ -14,7 +14,7 @@
 <g id="node1" class="node" pointer-events="visible" data-name="extModule">
 
 <polygon fill="none" stroke="black" points="128.43,-286.4 1.57,-286.4 1.57,-250.4 128.43,-250.4 128.43,-286.4" style=""/>
-<text text-anchor="middle" x="65" y="-264.2" font-family="Times,serif" font-size="14.00" style="">other FAVI module</text>
+<text text-anchor="middle" x="65" y="-264.2" font-family="Times,serif" font-size="14.00" style="">other FaVirtu module</text>
 </g>
 <!-- webServer -->
 <g id="node2" class="node" pointer-events="visible" data-name="webServer">

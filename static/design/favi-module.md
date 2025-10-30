@@ -1,4 +1,4 @@
-# FAVI Module
+# FaVirtu Module
 
 Back to [main README](../../README.md)
 
@@ -6,13 +6,13 @@ Back to [main README](../../README.md)
 
 ## API Modules
 
-**FAVI API** modules are packaged like so:
+**FaVirtu API** modules are packaged like so:
 
 1. API Modules use a **Docker container** which hosts the
 1. **Module Web Server** that exposes functionality from
 1. the **Module Core**
 
-![FAVI module](./img/favi-module-1.0.svg "FAVI module")
+![FaVirtu module](./img/favi-module-1.0.svg "FaVirtu module")
 
 This implementation allows users to tweak configurations as necessary. For customizing how these modules fit together, adding their own to the cluster, etc.
 
