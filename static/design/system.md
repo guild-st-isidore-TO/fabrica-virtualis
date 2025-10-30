@@ -42,6 +42,8 @@ Back to [main README](../../README.md)
 
 ### Data flow
 
+![FaVirtu Sequence Diagram](./img/favirtu-sequence.drawio-1.0.png "FaVirtu Sequence Diagram")
+
 User interactions are expected to have this data flow:
 
 1. On TABA front-end, user selects an available FaVirtu function

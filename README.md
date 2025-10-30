@@ -19,6 +19,8 @@ On Hold -- Under active redesign
 - [Library Modules](./static/design/libraries.md)
 - [Data Models](./static/design/data-models.md)
 
+![FaVirtu Sequence Diagram](./static/design/img/favirtu-sequence.drawio-1.0.png "FaVirtu Sequence Diagram")
+
 ### Modules
 
 Planned software modules for the system:
