@@ -23,7 +23,9 @@ Any kind of file
 | **ID** | string | yes | String identifier used throughout system, sometimes in outputs. |
 | **Filestub** | string | yes | File's name without format extension |
 | **Fileslug** | string | yes | Lowercase slug-ified version of Filestub |
-| **Tags** | string[] | no | List of tags for this file |
+| **FaViTags** | string[] | no | List of tags for this file |
+| **FaViType** | string | no | FaVirtu document type |
+| **FaViCategory** | string | no | FaVirtu document category |
 
 ### Image File
 
@@ -46,6 +48,7 @@ Flat text files, anything that can be edited in a text editor.
 | Property | Type | Required | Description |
 | --- | --- | --- | --- |
 | **Name** | string | no | Text document name |
+| **Encoding** | string | no | Text encoding type |
 
 ---
 
