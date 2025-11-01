@@ -18,6 +18,7 @@ On Hold -- Under active redesign
 - [API Modules](./static/design/api-modules.md)
 - [Library Modules](./static/design/libraries.md)
 - [Data Models](./static/design/data-models.md)
+- [Milestones/Roadmap](./static/design/milestones.md)
 
 ![FaVirtu Sequence Diagram](./static/design/img/favirtu-sequence.drawio-1.0.png "FaVirtu Sequence Diagram")
 

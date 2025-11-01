@@ -1,4 +1,4 @@
-# FaVirtu Data Models
+# Data Models
 
 Back to [main README](../../README.md)
 
